@@ -2,8 +2,10 @@ version: '3'
 services:
   nextjs:
     build: ../nextjs
-  snake_app:
+  snake:
     build: ../snake-app
+  docs:
+    build: ../docs-app
   nginx:
     build: ../nginx
     ports:
