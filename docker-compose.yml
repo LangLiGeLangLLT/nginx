@@ -6,6 +6,8 @@ services:
     build: ../snake-app
   docs:
     build: ../docs-app
+  audio_player:
+    build: ../audio-player-app
   nginx:
     build: ../nginx
     ports:
