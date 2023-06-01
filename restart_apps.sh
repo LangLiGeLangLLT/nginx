@@ -1,4 +1,2 @@
-docker stop $(docker ps -a -q)
-docker rm $(docker ps -a -q)
-
-docker-compose up --build
+bash ./stop_apps.sh
+bash ./start_apps.sh
