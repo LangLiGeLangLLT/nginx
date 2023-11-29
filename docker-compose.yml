@@ -8,6 +8,8 @@ services:
     build: ../docs-app
   audio_player:
     build: ../audio-player-app
+  test:
+    build: ../test-app
   nginx:
     build: ../nginx
     ports:
